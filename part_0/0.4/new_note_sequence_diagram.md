@@ -15,8 +15,7 @@ activate server
 server-->>browser: HTML document
 deactivate server
 
-Note right of browser: browser reloads the Notes page
-Note right of browser: list cuases 3 more HTTP requests
+Note right of browser: browser reloads the Notes page which causes 3 more HTTP requests
 
 browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
 activate server
